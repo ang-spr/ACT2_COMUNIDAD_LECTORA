@@ -1,0 +1,32 @@
+h1 {
+    color:brown;
+}
+
+h2 {
+    color:rgb(21, 8, 202);
+}
+
+h3 {
+    color:rgb(21, 8, 202);
+}
+
+body {
+    background-color:rgb(236, 195, 216);
+}    
+
+#menu {
+    color:crimson;
+    outline: 2px solid sienna;
+}
+
+#subtitulo {
+    background-color: darksalmon;
+}
+
+#autor {
+    color:darkmagenta;
+}
+
+#txt {
+    background-color: rgb(219, 135, 222);
+}
