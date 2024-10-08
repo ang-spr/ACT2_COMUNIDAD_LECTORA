@@ -1,0 +1,35 @@
+h1 {
+    color:brown;
+}
+
+h2 {
+    color:rgb(21, 8, 202);
+}
+
+h3 {
+    color:rgb(21, 8, 202);
+}
+
+body {
+    background-color:rgb(236, 195, 216);
+}    
+
+#menu {
+    color:crimson;
+    outline: 2px solid sienna;
+}
+
+#link {
+    color:rgb(16, 92, 122);
+}
+
+#autor {
+    background-color: rgb(219, 135, 222);
+}
+
+#imagen {
+    color:darkred;
+    background-color: burlywood;
+    width: 360px;
+    height: 20px; 
+}
