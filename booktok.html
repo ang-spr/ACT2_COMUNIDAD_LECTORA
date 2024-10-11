@@ -10,9 +10,9 @@
     <header>
         <h1>✨LA COMUNIDAD DE BOOKTOK✨</h1>
 
-        <p><i>La comunidad de <abbr title="Comunidad que se hace llamar asi, donde realizan contenido en la plataforma tiktok">BookTok</abbr> es una vibrante y creciente subcultura dentro de la plataforma de redes sociales TikTok, dedicada a la literatura y la lectura. Desde su auge, ha tenido un impacto significativo en la forma en que se descubren y promueven los libros.</i></p>
+        <p><strong><i>La comunidad de <abbr title="Comunidad que se hace llamar asi, donde realizan contenido en la plataforma tiktok">BookTok</abbr> es una vibrante y creciente subcultura dentro de la plataforma de redes sociales TikTok, dedicada a la literatura y la lectura. Desde su auge, ha tenido un impacto significativo en la forma en que se descubren y promueven los libros.</i></strong></p>
         <ul>
-            <li><a href="index.html" id="menu">✨Regresar al inicio✨</a></li>
+            <button id="Inicio">✨Regresar Al Inicio✨</button>
         </ul>
         <img width="400" height="50" src="https://i.pinimg.com/236x/6c/c9/92/6cc992cc12755ad5b88b58ead3125ce6.jpg" alt="">
     </header>
@@ -97,18 +97,35 @@
 
             <p><i>Sigamos compartiendo nuestras pasiones, recomendando esos libros que nos hacen vibrar, y creando conexiones con personas que sienten la misma emoción al pasar la página. La magia de BookTok está en esa chispa de entusiasmo que se enciende en cada lector cuando descubre un nuevo favorito. Porque al final, no es solo sobre los libros que leemos, sino sobre las emociones que compartimos y las amistades que creamos en el camino.</i></p></strong></blockquote>
         </aside>
+
+        <hr>
+        <h2>¿Que opinas de la comunidad de booktok?</h2>
+        <form id="commentForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" required>
+            <br><br>
+            <label for="comment">Comentario:</label>
+            <textarea id="comment" required></textarea>
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p>
+            <video controls width="500" height="250" src="https://videos.pexels.com/video-files/16094471/16094471-uhd_2560_1440_30fps.mp4"></video>
+        </p>
+        <hr>
+
+        <h3>Comentarios:</h3>
+        <div id="commentsSection"></div>
+
+        <script src="booktok.js"></script>
     </main>
-    <hr>
-    <label for="¿Conocias ya a booktok?">¿Conocias ya a booktok?</label>
-    <input type="text" name="¿Conocias ya a booktok?" id="¿Conocias ya a booktok?">
-    <p>
-        <video controls width="500" height="250" src="https://videos.pexels.com/video-files/16094471/16094471-uhd_2560_1440_30fps.mp4"></video>
-    </p>
+
     <hr>
     <img width="400" height="50" src="https://i.pinimg.com/236x/6c/c9/92/6cc992cc12755ad5b88b58ead3125ce6.jpg" alt="">
 
     <footer>
-        <p><a href="index.html" id="menu">✨Regresaro al inicio✨</a></p>
+        <p><button id="Final">✨Regresar Al Inicio✨</button></p>
         <address>
             <hr>
             <small>
