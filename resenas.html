@@ -10,10 +10,10 @@
     <header>
         <h1>✨RESEÑAS LITERARIAS✨</h1>
         
-        <p><i>Una reseña literaria va más allá de simplemente evaluar un libro; se trata de conectar emocionalmente con otros lectores, compartir la experiencia personal de la lectura y transmitir el impacto que una historia ha tenido en quien la reseña. Al escribir una reseña, el reseñador busca despertar en los demás las mismas emociones que él o ella sintió al leer el libro: la emoción de un descubrimiento, la tristeza de una pérdida, la alegría de un final feliz, o la sorpresa de un giro inesperado.</i></p>
+        <p><strong><i>Una reseña literaria va más allá de simplemente evaluar un libro; se trata de conectar emocionalmente con otros lectores, compartir la experiencia personal de la lectura y transmitir el impacto que una historia ha tenido en quien la reseña. Al escribir una reseña, el reseñador busca despertar en los demás las mismas emociones que él o ella sintió al leer el libro: la emoción de un descubrimiento, la tristeza de una pérdida, la alegría de un final feliz, o la sorpresa de un giro inesperado.</i></strong></p>
 
         <ul>
-            <li><a href="index.html" id="menu">✨Regresar al Inicio✨</a></li>
+            <button id="Inicio">✨Regresar Al Inicio✨</button>
         </ul>
 
         <img width="400" height="50" src="https://i.pinimg.com/236x/6c/c9/92/6cc992cc12755ad5b88b58ead3125ce6.jpg" alt="">
@@ -434,18 +434,35 @@
         <hr>
         <aside>
             <h3>Gracias por llegar hasta aqui...</h3>
-            <blockquote id="frase">"Este trabajo fue realizado con mucho amor y cariño, me sirvio como aprendizaje porque esta pagina es una actividad de mi universidad, pero tambien me sirvio para demostrar mi graN pasiòn por los libros"</blockquote>
+            <blockquote id="frase">"Este trabajo fue realizado con mucho amor y cariño, me sirvio como aprendizaje porque esta pagina es una actividad de mi universidad, pero tambien me sirvio para demostrar mi gran pasiòn por los libros"</blockquote>
         </aside>
+        <hr>
+        <h2>¿Que reseña te justaria ver en un futuro??</h2>
+        <form id="commentForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" required>
+            <br><br>
+            <label for="comment">Comentario:</label>
+            <textarea id="comment" required></textarea>
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p>
+            <video controls width="500" height="250" src="https://videos.pexels.com/video-files/16094471/16094471-uhd_2560_1440_30fps.mp4"></video>
+        </p>
+        <hr>
+
+        <h3>Comentarios:</h3>
+        <div id="commentsSection"></div>
+
+        <script src="resenas.js"></script>
     </main>
-    <hr>
-    <p>
-        <video controls width="500" height="250" src="https://videos.pexels.com/video-files/16094471/16094471-uhd_2560_1440_30fps.mp4"></video>
-    </p>
     <hr>
     <img width="400" height="50" src="https://i.pinimg.com/236x/6c/c9/92/6cc992cc12755ad5b88b58ead3125ce6.jpg" alt="">
 
     <footer>
-        <p><a href="index.html" id="menu">✨Regresaro al inicio✨</a></p>
+        <p><button id="Final">✨Regresar Al Inicio✨</button></p>
         <address>
             <hr>
             <small>
