@@ -14,9 +14,10 @@ body {
     background-color:rgb(236, 195, 216);
 }    
 
-#menu {
+button {
+    background-color: rgb(202, 171, 231);
     color:crimson;
-    outline: 2px solid sienna;
+    margin: 5px;;
 }
 
 #link {
