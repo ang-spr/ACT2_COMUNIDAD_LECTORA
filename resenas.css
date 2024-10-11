@@ -14,9 +14,10 @@ body {
     background-color:rgb(236, 195, 216);
 }    
 
-#menu {
+button {
+    background-color: rgb(202, 171, 231);
     color:crimson;
-    outline: 2px solid sienna;
+    margin: 5px;;
 }
 
 #autor {
@@ -33,4 +34,19 @@ body {
 
 #frase {
     background-color: darksalmon;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 20%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
